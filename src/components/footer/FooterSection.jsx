@@ -8,7 +8,8 @@ const FooterSection = () => {
         
         {/* Logo + About */}
         <div>
-          <h2 className="text-2xl font-bold text-blue-600 mb-3">GoodlySoft</h2>
+          <img src="/images/logo.png" alt="GoodlySoft Logo" className="h-12" />
+
           <p className="text-sm mb-4">
             Build and Earn with your online store with lots of cool and
             exclusive features
@@ -50,14 +51,7 @@ const FooterSection = () => {
             Online store with lots of cool and exclusive features GoodlySoft
           </p>
           <div className="flex justify-between text-sm font-medium">
-            <div>
-              <p>Item Sold</p>
-              <p className="text-xl text-blue-500 font-bold">32567</p>
-            </div>
-            <div>
-              <p>Total Earning</p>
-              <p className="text-xl text-blue-500 font-bold">603598</p>
-            </div>
+            
           </div>
         </div>
 
